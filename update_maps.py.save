@@ -1,7 +1,0 @@
-import globfrom distutils.dir_util import copy_tree
-
-maps_folder = 'files/maps'
-backup_folder = 'files/maps_backup'
-
-# make backup folder 
-copy_tree(maps_folder, backup_folder)
